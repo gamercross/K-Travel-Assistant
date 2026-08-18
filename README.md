@@ -4,29 +4,29 @@ Google Gemini API와 Kakao Local API를 조합하여...
 
 ## 설치
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## API 키 설정
 
 ### macOS/Linux
-\`\`\`bash
+```bash
 export GEMINI_API_KEY="your_key_here"
 export KAKAO_API_KEY="your_key_here"
-\`\`\`
+```
 
 ### Windows PowerShell
-\`\`\`powershell
+```powershell
 $env:GEMINI_API_KEY="your_key_here"
 $env:KAKAO_API_KEY="your_key_here"
-\`\`\`
+```
 
 ## 실행
 
-\`\`\`bash
+```bash
 python travel_planner.py -date "2024-03-15"
-\`\`\`
+```
 
 ## 결과 확인
 
